@@ -1,4 +1,4 @@
-fetch('../../data/seasonalItem.json')
+fetch('../data/seasonalItem.json')
     .then((response) => response.json())
     .then(
         function (data) {

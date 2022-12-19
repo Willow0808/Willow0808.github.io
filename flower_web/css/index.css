@@ -1,0 +1,9 @@
+body {
+    font-size: 15px;
+}
+
+body > .main {
+    margin: auto;
+    width: 1050px;
+}
+

@@ -1,0 +1,25 @@
+.search_wrapper {
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.search {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.search input {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 15px 17px;
+    font-size: 20px;
+}
+
+.search img {
+    width: 20px;
+    top: calc(50% - 10px);
+    right: -20px;
+    position: absolute;
+}

@@ -1,0 +1,65 @@
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+header nav > a {
+    padding : 10px;
+    margin-left : 50px;
+    text-decoration: none;
+    font-size: 13px;
+    color : black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header nav > .menu_btn {
+    font-size: 1.5rem;
+    padding : 0;
+    margin-top: -5px;
+}
+
+header .header_wrapper {
+    width: 100%;
+    height : 100px;
+    background-color: #B25D5D;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+
+header .header_wrapper .logo {
+    top: 10px;
+    left: 30px;
+    background-color: white;
+    padding : 15px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.slogan {
+    padding: 10px;
+    margin-left: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main {
+    margin:auto;
+    width: 1050px;
+    padding-bottom: 0vh;
+}

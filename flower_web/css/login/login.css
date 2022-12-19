@@ -1,0 +1,154 @@
+#login {
+   
+    border-width: 2px;
+    border-radius: 6px;
+    margin-top: 10vh;
+}
+
+#input{
+
+    margin-top: 10px;
+    
+}
+
+header nav > a {
+    padding : 10px;
+    margin-left : 50px;
+    text-decoration: none;
+    font-size: 13px;
+    color : black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header nav > .menu_btn {
+    font-size: 1.5rem;
+    padding : 0;
+    margin-top: -5px;
+}
+
+#loginbutton {
+    margin:auto;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    width: 20%;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #743c3c;
+    font-size: 15px;
+    color:#fff;
+  
+    
+}
+
+#buttonset {
+    margin-top: 30px;
+}
+
+
+
+input{
+    
+    width: 300px;
+    border-radius: 9999999px;
+    border-width: 2px;
+    padding: 6px;
+    
+   
+}
+
+
+header .header_wrapper {
+    width: 100%;
+    height : 100px;
+    background-color: #B25D5D;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+
+header .header_wrapper .logo {
+    top: 10px;
+    left: 30px;
+    background-color: white;
+    padding : 15px;
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.slogan {
+    padding: 10px;
+    margin-left: 25px;
+    font-size: 10%;
+}
+
+.main {
+    margin:auto;
+    width: 1050px;
+    padding-bottom: 0vh;
+}
+
+/* footer section */
+
+html,body {
+    margin: 0;
+    padding: 0;
+  }
+
+#wrap {
+    width: 100%;
+    height : 90px;
+    min-height: 90px;
+    position: relative;
+    padding-bottom: 80px;
+    margin-top: 100px;
+    bottom: 0;
+    background-color: #f0dcdc;
+    
+}
+
+footer {
+
+	width: 100%;
+    min-height: 100px;
+	height: 100px; 
+	bottom: 0px;
+	position: absolute;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    color: #966f6f;
+    font-size: 20px;
+}
+footer a {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    color: #421111; font-size: 11px;
+  }
+  
+  footer a:visited {
+    color: #421111;
+  }
+  
+  footer p {
+    margin-top: 0; margin-bottom: 0;   
+  }
+  
+  footer p span {
+    display: inline-block;
+    margin-left: 20px;
+  }
+

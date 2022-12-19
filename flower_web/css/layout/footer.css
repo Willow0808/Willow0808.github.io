@@ -1,0 +1,50 @@
+#wrap {
+    min-height: 90px;
+    position: relative;
+    width: 100%;
+    padding-top: 10vh;
+    background-color: #f0dcdc;
+}
+footer {
+	width: 100%;
+  min-height: 90px;
+	height: 100px; /* 내용물에 따라 알맞는 값 설정 */
+	bottom: 0px;
+	position: absolute;
+  padding-bottom: 60px;
+  color: #966f6f;
+  font-size: 20px;
+}
+
+footer a {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    color: #421111; font-size: 11px;
+  }
+  
+  footer a:visited {
+    color: #421111;
+  }
+  
+  footer p {
+    margin-top: 0; margin-bottom: 0;   
+  }
+  
+  footer p span {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  section {
+    padding-bottom: 105px;
+  }
+
+
+  
+  
+

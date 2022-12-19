@@ -1,0 +1,9 @@
+.main_title {
+    position: relative;
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    font-size: 40px;
+    padding: 40px;
+}

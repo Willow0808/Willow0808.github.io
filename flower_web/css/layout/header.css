@@ -1,0 +1,160 @@
+/* header nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+header nav > a {
+    padding : 10px;
+    margin-left : 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color : black;
+    display: flex;
+    align-items: center
+}
+
+header nav > .menu_btn {
+    font-size: 2rem;
+    padding : 0;
+    margin-top: -5px;
+}
+
+header .header_wrapper {
+    height : 300px;
+    width: 1050px;
+    margin: 0px auto;
+    background-color: #B25D5D;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header_wrapper .logo {
+    top: 40px;
+    left: 50px;
+    background-color: white;
+    padding : 15px;
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+header .header_wrapper .slogan {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.search {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    margin-top:100px;
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  
+  .search img {
+    position : absolute;
+    width: 17px;
+    top: 10px;
+    right: 12px;
+    margin: 0;
+  }
+  
+  .search-bar__input {
+      width: 50px;
+      border: none;
+      text-align: center;
+      margin-left: 10px;
+      overflow: auto;
+      z-index: -1;
+      font-size: 15px;
+    }
+  
+   */
+
+   header nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}   
+
+header nav > a {
+    padding : 10px;
+    margin-left : 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color : black;
+    display: flex;
+    align-items: center;
+
+}
+
+header nav > .menu_btn {
+    font-size: 2rem;
+    padding : 0;
+    margin-top: -5px;
+}
+
+header .header_wrapper {
+    height : 300px;
+    width: 1050px;
+    margin: 0px auto;
+    background-color: #B25D5D;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header_wrapper .logo {
+    top: 40px;
+    left: 50px;
+    background-color: white;
+    padding : 15px;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+header .header_wrapper .slogan {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* .search-bar{
+  
+
+} */
+
+.search-bar__input {
+    width: 50px;
+    border: none;
+    text-align: center;
+    margin-left: 10px;
+    overflow: auto;
+    z-index: -1;
+    font-size: 15px;
+  }

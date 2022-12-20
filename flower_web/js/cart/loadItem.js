@@ -1,7 +1,7 @@
 const itemListTag = document.querySelector('.item_list');
 console.log(itemListTag);
 
-const storedItems = JSON.parse(localStorage.getItem('cart'));
+const storedItems = JSON.parse(localStorage.getItem('cart')) ?? [];
 console.log(storedItems);
 
 const getStoredItems = () => {
@@ -11,7 +11,7 @@ const getStoredItems = () => {
 const removeItem = (evt) => {
     console.log(evt);
     const removeTag = evt.target.closest('.remove');
-    const cartContainer = removeTag.closest('.Cart-Container');
+    const cartContainer = removeTag.closest('.cart_container');
     const removeIndex = removeTag.getAttribute('data-item_index');
     const removeItemNumber = removeTag.getAttribute('data-item_number');
     // console.log(cartContainer);
@@ -69,8 +69,8 @@ const loadItemToCart = (itemNumber, indexNumber, count) => {
             const itemInfo = data.data;
             const itemAreaTag = document.createElement('div');
             itemListTag.appendChild(itemAreaTag);
-            itemAreaTag.innerHTML = `
-            <div class="Cart-Container">
+            itemAreaTag.outerHTML = `
+            <div class="cart_container">
                     <div class="productI">
                         <img width="200px" style="margin-right:70px; border-radius: 10%;" 
                         src="../${itemInfo.img}" alt="">

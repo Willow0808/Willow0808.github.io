@@ -24,7 +24,8 @@ for(i=0; i<addCartTags.length; i++) {
     }
     addCartTag.onclick = (e) => {
         if(window.confirm('Do you want to add this item?')) {
-            addCart(e);
+            addCart(e)
+            window.location.href = 'https://willow0808.github.io/flower_web/html/cart/cart.html'
         }
     };
 }
